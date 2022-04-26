@@ -60,7 +60,9 @@ const load = () => {
   option3.innerHTML = questions[indexOfQuestion].options[2];
   option4.innerHTML = questions[indexOfQuestion].options[3];
 
-  numberOfQustion.innerHTML = indexOfPage + 1; // Встановлення номера поточної сторінки
+  // Встановлення номера поточної сторінки
+  numberOfQustion.innerHTML = indexOfPage + 1;
+
   indexOfPage++; // Збільшення індекса сторінки
 };
 
